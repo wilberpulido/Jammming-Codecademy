@@ -16,7 +16,7 @@ class App extends React.Component{
     this.state =({
       searchResults: [],
 
-      playListName: 'Lacreo.com',
+      playListName: 'New Playlist',
 
       playlistTracks: []
       //Array de objetos, cada uno tiene propiedades como name, artists, album y id.
@@ -60,6 +60,7 @@ class App extends React.Component{
     })
   }
   search(term){
+    console.log('Entre al search de APP')
     Spotify.search(term).then(searchResults =>{
       this.setState({searchResults: searchResults})
     })
