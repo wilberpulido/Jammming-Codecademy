@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Proyecto realizado como parte del curso de programacion web de codecademy.com
+### Consiste en una pagina web que realiza request a la api de spotify, consigue canciones
+### por el titulo de la cancion y las muestras para ser agregadas en una lista de reproduccion
+### Muestra titulo, artista y album, permite cambiar nombre de la lista de reproduccion
+### Luego de agregar y borrar todas las canciones que desees, te permite agregar dicha playlists
+### A tu cuenta de spotify real.
+### NOTA: La estructura HTML y CSS fueron facilitadas por codecademy.com para realizar la practique de manera efectiva.
+### Los componentes y el resto del codigo fue realizado por mi con la tutoria de codecademy.com.
+
 ## Available Scripts
 
 In the project directory, you can run:
