@@ -1,5 +1,5 @@
 const cliendId = '3bc0adb632f0460d8cc2a378f2b5c7f5';
-const redirectUri = 'http://evasive-hands.surge.sh';
+const redirectUri = 'http://localhost:3000/';
 let accessToken;
 
 const Spotify = {
